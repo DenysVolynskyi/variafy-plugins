@@ -1,0 +1,43 @@
+{
+  "name": "variafy",
+  "version": "1.0.0",
+  "description": "Meta ads from your assistant: read results, find wasted spend, explain cost spikes, launch campaigns and report to clients through the Variafy connector, with every change previewed first.",
+  "author": {
+    "name": "Variafy",
+    "url": "https://www.variafy.com"
+  },
+  "homepage": "https://www.variafy.com",
+  "repository": "https://github.com/DenysVolynskyi/variafy-plugins",
+  "license": "MIT",
+  "keywords": [
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "advertising",
+    "performance-marketing",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Variafy",
+    "shortDescription": "Meta ads from Codex, with every change previewed first",
+    "longDescription": "Variafy connects Codex to your Meta ad accounts. Read results and payments, find wasted spend, explain why cost per result rose, build paused campaigns and report to clients. Every change comes back as a preview first and is applied only when you confirm it. The skill teaches Codex seven Variafy workflows: morning check, wasted spend, cost spikes, launching a campaign, refreshing creatives, a client report and a tracking check.",
+    "developerName": "Variafy",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.variafy.com",
+    "privacyPolicyURL": "https://www.variafy.com/privacy",
+    "termsOfServiceURL": "https://www.variafy.com/terms",
+    "defaultPrompt": [
+      "Call start_here and show my connected ad accounts.",
+      "Find wasted spend in my Meta ads over the last 14 days.",
+      "Why did my cost per lead rise this week?"
+    ],
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.png"
+  }
+}

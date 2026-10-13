@@ -1,0 +1,33 @@
+{
+  "name": "variafy",
+  "owner": {
+    "name": "Variafy",
+    "email": "support@variafy.com"
+  },
+  "metadata": {
+    "description": "The Variafy plugin: the Variafy connector for Meta ads and a skill that knows how to use it.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "variafy",
+      "source": "./variafy",
+      "description": "Meta ads from your assistant: read results, find wasted spend, explain cost spikes, launch campaigns and report to clients through the Variafy connector, with every change previewed first.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Variafy",
+        "url": "https://www.variafy.com"
+      },
+      "homepage": "https://www.variafy.com/help#skills",
+      "category": "productivity",
+      "keywords": [
+        "meta-ads",
+        "facebook-ads",
+        "instagram-ads",
+        "advertising",
+        "performance-marketing",
+        "mcp"
+      ]
+    }
+  ]
+}

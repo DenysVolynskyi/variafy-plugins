@@ -1,0 +1,18 @@
+{
+  "name": "variafy",
+  "owner": {
+    "name": "Variafy",
+    "email": "support@variafy.com"
+  },
+  "metadata": {
+    "description": "The Variafy plugin for Cursor: the Variafy connector for Meta ads and its skill.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "variafy",
+      "source": "./variafy",
+      "description": "Meta ads from your assistant: read results, find wasted spend, explain cost spikes, launch campaigns and report to clients through the Variafy connector, with every change previewed first."
+    }
+  ]
+}

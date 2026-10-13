@@ -1,0 +1,20 @@
+{
+  "name": "variafy",
+  "description": "Meta ads from your assistant: read results, find wasted spend, explain cost spikes, launch campaigns and report to clients through the Variafy connector, with every change previewed first.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Variafy",
+    "url": "https://www.variafy.com"
+  },
+  "homepage": "https://www.variafy.com/help#skills",
+  "repository": "https://github.com/DenysVolynskyi/variafy-plugins",
+  "license": "MIT",
+  "keywords": [
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "advertising",
+    "performance-marketing",
+    "mcp"
+  ]
+}

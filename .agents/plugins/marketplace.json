@@ -1,0 +1,23 @@
+{
+  "name": "variafy",
+  "interface": {
+    "displayName": "Variafy"
+  },
+  "plugins": [
+    {
+      "name": "variafy",
+      "displayName": "Variafy",
+      "description": "Meta ads from your assistant: read results, find wasted spend, explain cost spikes, launch campaigns and report to clients through the Variafy connector, with every change previewed first.",
+      "source": {
+        "source": "local",
+        "path": "./variafy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity",
+      "icon": "./variafy/assets/logo.svg"
+    }
+  ]
+}
