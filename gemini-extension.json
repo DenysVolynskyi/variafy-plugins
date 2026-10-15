@@ -1,0 +1,10 @@
+{
+  "name": "variafy",
+  "version": "1.0.0",
+  "description": "Meta ads from Gemini CLI through the Variafy connector: results, wasted spend, cost spikes and campaigns. Every change is previewed first.",
+  "mcpServers": {
+    "variafy": {
+      "httpUrl": "https://www.variafy.com/mcp"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Variafy plugin
 
-[Variafy](https://www.variafy.com) connects your AI assistant to your Meta (Facebook and Instagram) ad accounts. Read
+[Variafy](https://www.variafy.com) connects Claude, ChatGPT, Codex, Cursor and Gemini CLI to your Meta (Facebook and Instagram) ad accounts. Read
 results and payments, find wasted spend, explain why cost per result rose, build paused campaigns and report to clients.
 Every change comes back as a preview first and is applied only when you confirm it.
 
@@ -36,6 +36,15 @@ Issue a token in the Variafy console under **Assistant connection** and add it t
 ```json
 { "mcpServers": { "variafy": { "url": "https://www.variafy.com/mcp", "headers": { "Authorization": "Bearer sk_live_YOUR_TOKEN" } } } }
 ```
+
+## Gemini CLI
+
+```
+gemini extensions install https://github.com/DenysVolynskyi/variafy-plugins
+```
+
+Then run `/mcp auth variafy` and sign in. The extension adds the connector; the workflows from the skill are on
+[variafy.com/help](https://www.variafy.com/help#skills).
 
 ## Other assistants
 
