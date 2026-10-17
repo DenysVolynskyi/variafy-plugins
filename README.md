@@ -43,8 +43,8 @@ Issue a token in the Variafy console under **Assistant connection** and add it t
 gemini extensions install https://github.com/DenysVolynskyi/variafy-plugins
 ```
 
-Then run `/mcp auth variafy` and sign in. The extension adds the connector; the workflows from the skill are on
-[variafy.com/help](https://www.variafy.com/help#skills).
+Then run `/mcp auth variafy` and sign in. The extension adds the connector and the `variafy-ads` skill with the same
+seven workflows.
 
 ## Other assistants
 
