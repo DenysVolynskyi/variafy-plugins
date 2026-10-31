@@ -1,16 +1,25 @@
 # Variafy plugin
 
-[Variafy](https://www.variafy.com) connects Claude, ChatGPT, Codex, Cursor and Gemini CLI to your Meta (Facebook and Instagram) ad accounts. Read
-results and payments, find wasted spend, explain why cost per result rose, build paused campaigns and report to clients.
-Every change comes back as a preview first and is applied only when you confirm it.
+[Variafy](https://www.variafy.com) connects AI assistants to ad results, CRM payments and account alerts through MCP.
+It reads Meta Ads, Google Ads, Microsoft Advertising, LinkedIn Ads, Google Analytics 4 and Search Console. Meta ad changes
+(pauses, budgets, new campaigns and ads) come back as a preview with the effect on spend first and are applied only after
+you confirm them; the other platforms are read-only. Payments from Pipedrive, a Google Sheet or an uploaded file are matched
+to the ads that brought them, and connected Meta accounts are checked every 15 minutes for account, delivery and spend problems.
+
+This repository packages the Variafy connector as a plugin for Claude Code, Codex, Cursor and Gemini CLI.
 
 The plugin brings two things:
 
 - **The Variafy connector** (`https://www.variafy.com/mcp`). You sign in with your Variafy account the first time it is used.
-- **The `variafy-ads` skill**: how to work with Variafy, and seven workflows — morning check, wasted spend, why cost per
+- **The `variafy-ads` skill**: how to work with Variafy, and seven Meta ads workflows — morning check, wasted spend, why cost per
   result rose, launching a campaign, refreshing creatives, a client report and a tracking check.
 
-You need a Variafy account with a Meta ad account connected: [variafy.com](https://www.variafy.com).
+## Access
+
+Variafy is a free beta by invitation: $0, 3 connections per platform and 300 counted changes per UTC calendar month per
+workspace. Join the waiting list at [variafy.com/waitlist](https://www.variafy.com/waitlist). While Meta app review is in
+progress, Meta access also needs a tester invitation that you accept in your Facebook account. Variafy is independent and
+not affiliated with Meta.
 
 ## Claude Code
 
@@ -48,7 +57,8 @@ seven workflows.
 
 ## Other assistants
 
-Claude, ChatGPT, Gemini, Copilot, Perplexity and others connect to the same address. Steps for each:
+Claude, ChatGPT, Claude Code, Cursor, Grok and Mistral Vibe connect to the same address. Gemini custom apps are available
+only to some accounts and regions, and we have not tested that connection ourselves. Steps for each:
 [variafy.com/help](https://www.variafy.com/help#connect-assistant).
 
 ## Check that it works
